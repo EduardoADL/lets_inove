@@ -101,6 +101,7 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    background: #C413E1;
     padding-top: 175px;
     padding-bottom: 175px;
 }
@@ -112,22 +113,22 @@
 .icon-espec {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 20px;
     line-height: 24px;
     display: flex;
     align-items: center;
-    color: #C413E1;
+    color: white;
 }
 
 .espec {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
     align-items: center;
-    color: #000000;
+    color: white;
 }
 
 .container-texts-3 {

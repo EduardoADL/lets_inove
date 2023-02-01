@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+
+.container-footer{
+    background-color: #6E259F;
+}
+
+.container-lets{
+    color: white;
+    font-size: 30px;
+    font-family: 'Iceberg', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-lets h2{
+    background-color: #8227BD;
+    border-radius: 20px;
+    position: absolute;
+    padding: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 40px;
+    color: white;
+}

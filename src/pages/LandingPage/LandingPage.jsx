@@ -2,6 +2,7 @@ import './LandingPage.css';
 import Icon from '../../assets/img/icon.png';
 import Button from '../../components/Button/Button';
 import ButtonLarge from '../../components/ButtonLarge/ButtonLarge';
+import Footer from '../../components/Footer/Footer';
 
 const LandingPage = () => {
     function testebutton() {
@@ -37,15 +38,27 @@ const LandingPage = () => {
                 </div>
                 <div className='container-texts-2'>
                     <div className='div-spec'>
-                        <p className='icon-espec'>ICON</p>
+                        <p className='icon-espec'>TITULO</p>
                         <p className='espec'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue ut massa accumsan dictum. Nam a malesuada metus. In rhoncus maximus maximus. Phasellus a metus varius, eleifend elit ac, viverra urna.</p>
                     </div>
                     <div className='div-spec'>
-                        <p className='icon-espec'>ICON</p>
+                        <p className='icon-espec'>TITULO</p>
                         <p className='espec'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue ut massa accumsan dictum. Nam a malesuada metus. In rhoncus maximus maximus. Phasellus a metus varius, eleifend elit ac, viverra urna.</p>
                     </div>
                     <div className='div-spec'>
-                        <p className='icon-espec'>ICON</p>
+                        <p className='icon-espec'>TITULO</p>
+                        <p className='espec'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue ut massa accumsan dictum. Nam a malesuada metus. In rhoncus maximus maximus. Phasellus a metus varius, eleifend elit ac, viverra urna.</p>
+                    </div>
+                    <div className='div-spec'>
+                        <p className='icon-espec'>TITULO</p>
+                        <p className='espec'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue ut massa accumsan dictum. Nam a malesuada metus. In rhoncus maximus maximus. Phasellus a metus varius, eleifend elit ac, viverra urna.</p>
+                    </div>
+                    <div className='div-spec'>
+                        <p className='icon-espec'>TITULO</p>
+                        <p className='espec'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue ut massa accumsan dictum. Nam a malesuada metus. In rhoncus maximus maximus. Phasellus a metus varius, eleifend elit ac, viverra urna.</p>
+                    </div>
+                    <div className='div-spec'>
+                        <p className='icon-espec'>TITULO</p>
                         <p className='espec'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue ut massa accumsan dictum. Nam a malesuada metus. In rhoncus maximus maximus. Phasellus a metus varius, eleifend elit ac, viverra urna.</p>
                     </div>
                 </div>
@@ -68,6 +81,7 @@ const LandingPage = () => {
                     <ButtonLarge text='Quero meu sistema' click={()=> console.log('entrou aqui!')}/>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     )
 }
