@@ -50,6 +50,7 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div className='container-texts-3'>
+                    <p className='title-plan'>PLANOS</p>
                     <div className='divs-plan'>
                         <div className='div-plan'>
                             <p className='icon-plan'>ICON</p>
