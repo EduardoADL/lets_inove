@@ -3,8 +3,8 @@ import './Button.css';
 
 const Button = ({ click, text }) => {
     return (
-        <div className="content" onClick={click}>
-            <p className="text">{text}</p>
+        <div className="button" onClick={click}>
+            <p className="texts">{text}</p>
         </div>
     )
 }

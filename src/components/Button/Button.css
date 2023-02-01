@@ -1,21 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
 
-.content{
-    padding:5px;
+.button {
+    width: 30%;
+    height: 48px;
     border-radius: 24px;
-    width: 20%;
-    height: 38px;
-    background:#BB71DD;
+    background: #BB71DD;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.text{
+.texts {
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: white;
     font-style: normal;
+}
+
+@media (max-width:1601px) {
+    /* .button {
+        width: 160px;
+        height: 40px;
+    } */
 }
