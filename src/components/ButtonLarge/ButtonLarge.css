@@ -22,3 +22,13 @@
     align-items: center;
     color: #FFFFFF;
 }
+
+@media (max-width: 1024px) {
+    .text{
+        font-size: 15px;
+    }
+    .content{
+        height: 60px;
+        width: 60%;
+    }
+}

@@ -78,7 +78,7 @@ const LandingPage = () => {
                             <p className='plan'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse congue ut massa accumsan dictum. Nam a malesuada metus. In rhoncus maximus maximus. Phasellus a metus varius, eleifend elit ac, viverra urna.</p>
                         </div>
                     </div>
-                    <ButtonLarge text='Quero meu sistema' click={()=> console.log('entrou aqui!')}/>
+                    <ButtonLarge text='Quero meu sistema' click={() => console.log('entrou aqui!')} />
                 </div>
             </div>
             <Footer></Footer>

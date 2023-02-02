@@ -54,7 +54,6 @@
     align-items: center;
     justify-content: space-around;
     margin-top: 1%;
-
 }
 
 .container-texts-1 {
@@ -181,4 +180,21 @@
     line-height: 24px;
     align-items: center;
     color: #000000;
+}
+
+@media (max-width:1024px){
+
+    .title {
+        font-size: 30px;
+        line-height: 98px;
+    }
+    .menu{
+        display: none;
+    }
+    .divs-plan {
+        margin-bottom: 30px;
+    }
+    .container-texts-3 {
+        padding-bottom: 100px;
+    }
 }

@@ -10,7 +10,7 @@ const Footer = () =>{
             </div>
             <div className="container-flex">
                 <div className="container-icon">
-                    <img src={icon} alt="icone"></img>
+                    <img class='icon-footer' src={icon} alt="icone"></img>
                 </div>
                 <div className="container-info">
                     <h3>Contatos</h3>
