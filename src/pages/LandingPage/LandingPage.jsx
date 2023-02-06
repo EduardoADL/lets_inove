@@ -14,7 +14,7 @@ const LandingPage = () => {
                 <div className='top-header'>
                     <img className='icon' src={Icon} alt='icon' />
                     <div className='menu'>
-                        <a>Plano1</a>
+
                         <a>Plano1</a>
                         <a>Plano1</a>
                         <a>Plano1</a>
