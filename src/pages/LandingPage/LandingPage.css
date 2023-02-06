@@ -38,6 +38,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 70px;
+}
+
+.menu-div{
+    width: 100%;
+}
+
+.menu-div a{
+        text-decoration: none;
+        color: white;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    transition: 0.6s;
+    /* border: 1px solid #BFBFBF; */
+    box-shadow: 0px 3px 3px 3px #e1c3f5;
+}
+
+.sticky a{
+    color: black;
 }
 
 .menu {
@@ -115,6 +140,42 @@
     padding-bottom: 175px;
 }
 
+.scrolling-wrapper{
+    background-color: #8227BD;
+    align-items: flex-start;
+    overflow: auto;
+    white-space: pre-line;
+    display: none;
+}
+
+.div-spec-scroll{
+    display: inline-block;
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.espec-scroll{
+    width: 260px;
+    overflow-wrap: break-word;
+}
+
+
+.scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar{
+    background: transparent;
+}
+
+/* .scrolling-wrapper{
+    display: none;
+} */
+
+
+
+
 .div-spec {
     width: 335px;
 }
@@ -144,7 +205,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content:center;
     flex-wrap: wrap;
     background: #F5F5F5;
     padding-top: 50px;
@@ -153,9 +214,12 @@
 
 .title-plan{
     font-family: 'Anton', sans-serif;
-    font-size: 52px;
+    font-size: 32px;
     color:  #8227BD;
     margin-bottom: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
 }
 
 .divs-plan {
@@ -171,15 +235,24 @@
     width: 335px;
 }
 
-.icon-plan {
+.icon-plan{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.text-plan {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 20px;
     line-height: 24px;
     display: flex;
     align-items: center;
-    color: #C413E1;
+    color: #000000;
+    margin-left: 20px;
 }
 
 .plan {
@@ -198,13 +271,23 @@
         font-size: 30px;
         line-height: 98px;
     }
-    .menu{
+    /* .menu{
         display: none;
-    }
+    } */
     .divs-plan {
         margin-bottom: 30px;
     }
     .container-texts-3 {
         padding-bottom: 100px;
     }
+
+    .container-texts-2 {
+        display: none;
+    }
+
+    .scrolling-wrapper{
+        display:flex;
+        flex-direction: row;
+    }
+
 }

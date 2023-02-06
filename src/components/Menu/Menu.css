@@ -1,0 +1,42 @@
+.buttonImg{
+    width: 40px;
+}
+
+.menuResponse{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container1{
+    width: 50%;
+    font-family: 'Kanit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.offcanvas-body{
+    background:#8227BD ;
+}
+
+.offcanvas-header{
+    background:#8227BD ;
+}
+
+.nav2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+}

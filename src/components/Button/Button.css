@@ -17,6 +17,7 @@
     font-size: 14px;
     color: white;
     font-style: normal;
+    margin: 0;
 }
 
 @media (max-width:1601px) {

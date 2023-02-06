@@ -3,8 +3,8 @@
 .content{
     padding:5px;
     border-radius: 24px;
-    width: 30%;
-    height: 100px;
+    width: 25%;
+    height: 90px;
     background:#BB71DD;
     cursor: pointer;
     display: flex;
@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
     color: #FFFFFF;
+    margin: 0;
 }
 
 @media (max-width: 1024px) {
