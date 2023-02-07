@@ -1,25 +1,13 @@
 import { useState } from 'react';
 import './LandingPage.css';
-import Icon from '../../assets/img/icon.png';
 import caracteristicas from '../../assets/img/Caracteristicas.png';
 import desenvolvimento from '../../assets/img/desenvolvimento.png';
 import entrega from '../../assets/img/entrega.png';
-import Button from '../../components/Button/Button';
 import ButtonLarge from '../../components/ButtonLarge/ButtonLarge';
 import Footer from '../../components/Footer/Footer';
 import Menu from '../../components/Menu/Menu';
 
 const LandingPage = () => {
-    // function testebutton() {
-    //     alert('Testing')
-    // }
-
-    // if(this.scrollTop() > 100){
-    //     document.querySelector("menu-div").classList.toggle("show");
-    // }
-    // else{
-    //     document.querySelector("menu-div").classList.remove("show");
-    // }
 
     const [navBar, setNavBar] = useState(false);
 

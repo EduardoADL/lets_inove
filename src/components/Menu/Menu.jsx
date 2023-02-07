@@ -37,7 +37,7 @@ const Menu = ({ inicio, cme, beneficio, etapa, beneficio2 }) => {
                     <img className="buttonImg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" src={burgerMenu} alt="burger-menu"></img>
                     <div className="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabIndex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                         <div className="offcanvas-header">
-                            <h5 className="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+                            <h5 className="offcanvas-title" id="offcanvasScrollingLabel">LetsInove Web Solutions</h5>
                             <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div className="offcanvas-body">
@@ -46,9 +46,9 @@ const Menu = ({ inicio, cme, beneficio, etapa, beneficio2 }) => {
                                     <a href={inicio}>Inicio</a>
                                     <a href={cme}>Pra você</a>
                                     <a href={beneficio2}>Benefícios</a>
-                                    <a href={etapa}>Etapas</a>
-                                    <Button text='Quero meu site'></Button>
+                                    <a href={etapa}>Etapas</a>  
                                 </nav>
+                                <Button text='Quero meu Orçamento!'></Button>
                             </ul>
                         </div>
                     </div>
