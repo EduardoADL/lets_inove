@@ -29,7 +29,7 @@
     font-family: 'Iceberg', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 50px;
     line-height: 98px;
     color: white;
 }
@@ -57,8 +57,7 @@
     width: 100%;
     background: white;
     transition: 0.6s;
-    /* border: 1px solid #BFBFBF; */
-    box-shadow: 0px 3px 3px 3px #e1c3f5;
+    box-shadow: 0px 2px 2px 2px #afafaf;
 }
 
 .sticky .nav1 a{
@@ -168,13 +167,6 @@
 ::-webkit-scrollbar{
     background: transparent;
 }
-
-/* .scrolling-wrapper{
-    display: none;
-} */
-
-
-
 
 .div-spec {
     width: 335px;
