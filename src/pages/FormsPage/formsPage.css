@@ -26,6 +26,10 @@
     border-radius: 5px;
 }
 
+.buttonSend button:hover{
+    background-color: #c106ff;
+}
+
 .anotherContact{
     display: flex;
     justify-content: center;

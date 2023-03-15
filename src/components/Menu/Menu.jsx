@@ -4,6 +4,7 @@ import burgerMenu from '../../assets/img/burger_icon.png';
 import Button from '../Button/button';
 import icon from '../../assets/img/icon.png';
 import './menu.css'
+import { Link } from 'react-router-dom';
 
 const Menu = ({ inicio, cme, beneficio, etapa, beneficio2 }) => {
 
@@ -11,14 +12,14 @@ const Menu = ({ inicio, cme, beneficio, etapa, beneficio2 }) => {
         document.getElementById('closeButton').click();
     }
 
-    function abreLink(){
-        window.open('https://wa.me/5545999587883');
-    }
+    // function abreLink(){
+    //     window.open('https://wa.me/5545999587883');
+    // }
 
-    function queroSite(){
-        fechamenu();
-        abreLink();
-    }
+    // function queroSite(){
+    //     fechamenu();
+    //     abreLink();
+    // }
 
     const [isDesktop, setDesktop] = useState(window.innerWidth > 1450);
 
@@ -37,11 +38,11 @@ const Menu = ({ inicio, cme, beneficio, etapa, beneficio2 }) => {
             {isDesktop && (
                 <ul className='container1'>
                     <nav className='nav1'>
-                        <a href={inicio}>Inicio</a>
-                        <a href={cme}>Pra você</a>
-                        <a href={beneficio}>Benefícios</a>
-                        <a href={etapa}>Etapas</a>
-                        <Button click={()=>abreLink()} text='Quero meu site'></Button>
+                        <Link to="/"><a href={inicio}>Inicio</a></Link>
+                        <Link to="/"><a href={cme}>Pra você</a></Link>
+                        <Link to="/"><a href={beneficio}>Benefícios</a></Link>
+                        <Link to="/"><a href={etapa}>Etapas</a></Link>
+                        <Link to="/formulario"><Button text='Quero meu site'></Button></Link>
                     </nav>
                 </ul>
             )}
@@ -60,7 +61,7 @@ const Menu = ({ inicio, cme, beneficio, etapa, beneficio2 }) => {
                                     <a onClick={()=> fechamenu()} href={cme}>Pra você</a>
                                     <a onClick={()=> fechamenu()} href={beneficio2}>Benefícios</a>
                                     <a onClick={()=> fechamenu()} href={etapa}>Etapas</a>
-                                    <Button click={()=>queroSite()} text='Quero meu site'></Button>
+                                    <Link to="/formulario"><Button text='Quero meu site'></Button></Link>
                                 </nav>
                             </ul>
                         </div>

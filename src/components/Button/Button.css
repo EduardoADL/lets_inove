@@ -4,11 +4,15 @@
     width: 180px;
     height: 48px;
     border-radius: 24px;
-    background: #BB71DD;
+    background: #AC13E1;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.button:hover{
+    background: #b46fca ;
 }
 
 .texts {

@@ -95,8 +95,8 @@ const FormsPage = () => {
         <p>Não deseja preencher um formulário?</p>
         <p>Contate pela plataforma de sua preferência!</p>
         <div className="icons">
-            <a><img src={instagram} alt="instagram" className="imagemIcon" /></a>
-            <a><img src={whatsapp} alt="whatsapp" className="imagemIcon" /></a>
+            <a href="https://www.instagram.com/letsinove/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="instagram" className="imagemIcon" /></a>
+            <a href="https://wa.me/5545999587883" target="_blank" rel="noopener noreferrer"><img src={whatsapp} alt="whatsapp" className="imagemIcon"/></a>
          </div>
       </div>
       <div className="footer">
