@@ -11,6 +11,10 @@ const LandingPage = () => {
 
     const [navBar, setNavBar] = useState(false);
 
+    function abreLink(){
+        window.open('https://wa.me/5545999587883');
+    }
+
     const changeBackground = () =>{
         if(window.scrollY >= 30){
             setNavBar(true)
@@ -22,14 +26,14 @@ const LandingPage = () => {
     window.addEventListener('scroll', changeBackground)
     
     return (
-        <div>
+        <div id='inicio'>
             <div className="header">
                 <div className='top-header'>
                     <div className={navBar ? 'menu-div sticky' : 'menu-div'}>
                         <Menu inicio='#inicio' cme='#cme' beneficio='#beneficio' etapa='#etapa' beneficio2='#beneficio2'/>
                     </div>
                 </div>
-                <div id='inicio' className='title-content'>
+                <div className='title-content'>
                     <p className='title'>LetsInove Web Solutions</p>
                 </div>
             </div>
@@ -41,7 +45,7 @@ const LandingPage = () => {
                     </div>
                     <div className='response-questions'>
                         <p className='responses'>A gestão da empresa é algo vital para o negócio, sendo importantíssimo uma boa organização nos dados gerais, desde uma venda até a organização de seu estoque e a gerencia de seus funcionários.</p>
-                        <p className='responses'>Um sistema de gestão de fácil acesso, intuitivo para novos funcionários utilizarem, com tecnologias modernas , sendo possível acessar todas as informações nos smartphones ou computadores.</p>
+                        <p  id='beneficio2' className='responses'>Um sistema de gestão de fácil acesso, intuitivo para novos funcionários utilizarem, com tecnologias modernas , sendo possível acessar todas as informações nos smartphones ou computadores.</p>
                     </div>
                 </div>
                 <div id='beneficio' className='container-texts-2'>
@@ -76,7 +80,7 @@ const LandingPage = () => {
                     </div>
                 </div>
 
-                <div id='beneficio2' className='scrolling-wrapper'>
+                <div className='scrolling-wrapper'>
                     <div className='div-spec-scroll'>
                         <p className='icon-espec'>Organização</p>
                         <p className='espec-scroll'>É possível se organizar muito mais quando a empresa tem um sistema adaptado para todas suas necessidades, e essa é a proposta que apresentamos. </p>
@@ -128,7 +132,7 @@ const LandingPage = () => {
                             <p className='plan'>Você recebe o sistema completo com todas as funcionalidades solicitadas e com possibilidade de manutenção mensal em seu sistema!</p>
                         </div>
                     </div>
-                    <ButtonLarge text='Quero meu sistema' click={() => console.log('entrou aqui!')} />
+                    <ButtonLarge text='Quero meu sistema' click={() => abreLink()} />
                 </div>
             </div>
             <Footer></Footer>

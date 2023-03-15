@@ -32,11 +32,20 @@
     color: white;
 }
 
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width:700px){
     .container-lets{
         font-size: 15px;
     }
     .icon-footer{
         width: 50px;
+    }
+    .copyright{
+        font-size: 12px;
     }
 }
