@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 import burgerMenu from '../../assets/img/burger_icon.png';
-import Button from '../Button/Button';
+import Button from '../Button/button';
 import icon from '../../assets/img/icon.png';
-import './Menu.css'
+import './menu.css'
 
 const Menu = ({ inicio, cme, beneficio, etapa, beneficio2 }) => {
 

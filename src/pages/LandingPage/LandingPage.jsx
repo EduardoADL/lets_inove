@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import './LandingPage.css';
+import './landingPage.css';
 import caracteristicas from '../../assets/img/Caracteristicas.png';
 import desenvolvimento from '../../assets/img/desenvolvimento.png';
 import entrega from '../../assets/img/entrega.png';
-import ButtonLarge from '../../components/ButtonLarge/ButtonLarge';
-import Footer from '../../components/Footer/Footer';
-import Menu from '../../components/Menu/Menu';
+import ButtonLarge from '../../components/ButtonLarge/buttonLarge';
+import Footer from '../../components/Footer/footer';
+import Menu from '../../components/Menu/menu';
 
 const LandingPage = () => {
 
@@ -45,6 +45,7 @@ const LandingPage = () => {
                     </div>
                 </div>
                 <div id='beneficio' className='container-texts-2'>
+
                     <div className='divBox'>
                         <div className='div-spec'>
                             <p className='icon-espec'>Organização</p>

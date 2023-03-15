@@ -1,6 +1,6 @@
 import React from 'react';
 import icon from '../../assets/img/icon.png'
-import "./Footer.css"
+import "./footer.css"
 
 const Footer = () =>{
     return(
