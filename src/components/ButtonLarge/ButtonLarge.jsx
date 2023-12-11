@@ -1,5 +1,5 @@
 import React from 'react';
-import './buttonLarge.css';
+import './ButtonLarge.css';
 
 const ButtonLarge = ({ click, text }) => {
     return (

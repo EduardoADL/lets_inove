@@ -1,11 +1,11 @@
 import { useState } from "react";
-import "./landingPage.css";
+import "./LandingPage.css";
 import caracteristicas from "../../assets/img/Caracteristicas.png";
 import desenvolvimento from "../../assets/img/desenvolvimento.png";
 import entrega from "../../assets/img/entrega.png";
-import ButtonLarge from "../../components/ButtonLarge/buttonLarge";
-import Footer from "../../components/Footer/footer";
-import Menu from "../../components/Menu/menu";
+import ButtonLarge from "../../components/ButtonLarge/ButtonLarge";
+import Footer from "../../components/Footer/Footer";
+import Menu from "../../components/Menu/Menu";
 
 import informationBen from "../../assets/data/informationBen.json";
 

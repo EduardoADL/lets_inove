@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./formsPage.css";
 
-import Menu from "../../components/Menu/menu";
-import Footer from "../../components/Footer/footer"
+import Menu from "../../components/Menu/Menu";
+import Footer from "../../components/Footer/Footer.jsx"
 
 import instagram from "../../assets/img/instagram.png"
 import whatsapp from "../../assets/img/whatsapp.png"
